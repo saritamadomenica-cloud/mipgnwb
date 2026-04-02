@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Pagina Web</title>
+</head>
+
+<body>
+
+    <!--Creacion de tabla para dividir el logo y nombre de la pagina web-->
+    <div>
+        <table>
+            <tr>
+                <th rowspan="2">
+                    <h2><img src="img/logo.png" alt="servidor" width="100" height="100"></h2>
+                </th>
+                <th colspan="2">
+                    <h1 style="text-align: center;">Desarrolladora de software</h1>
+                </th>
+            </tr>
+            <tr>
+                <td style="text-align: center;">|Doménica Saritama</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <!--Seleccion de registro o inicio de secion-->
+    <div>
+        <label for="">Registro o Inicio de Secion </label>
+        <select name="seleccionar">
+            <option value="Registro">Registro</option>
+            <option value="Inicio de Secion">Inicio de Secion</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <a href="registro.html" target="_blank">Registrate conmigo</a>
+    </div>
+
+    <div>
+        <h1>Login</h1>
+        <div>
+            <label for="e-mail">Ingrese su correo electronico:</label>
+            <input type="text" name="e-mail">
+        </div>
+        <div>
+            <label for="contraseña">Ingrese una contraseña:</label>
+            <input type="text" name="contraseña">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+        </div>
+    </div>
+
+    <!--Parrafo-->
+    <div style="width: 50%;">
+        <h1>Acerca de nosotros...</h1>
+        <p>
+            Mi empresa de desarrollo de software crea soluciones
+            tecnológicas prácticas para mejorar procesos y facilitar
+            el trabajo de personas y negocios. Me enfoco en desarrollar
+            aplicaciones web y sistemas personalizados, ofreciendo
+            también soporte y mantenimiento para garantizar un
+            funcionamiento eficiente y seguro.
+
+        </p>
+    </div>
+    
+    <!--Lista ordenada-->
+    <div>
+        <h2>Servicios:</h2>
+        <ol>
+            <li>Desarrollo Web</li>
+            <li>Instalacion de Programas</li>
+            <li>Lenguajes den Programacion</li>
+        </ol>
+    </div>
+    <!--Seleccion  enviar-->
+    <div>
+        <label for="">Seleccione el servicio que requiere:</label>
+        <select id="opcion" name="opcion">
+            <option value="Desarrollo Web">Desarrollo Web</option>
+            <option value="Instalacion de Programas">Instalacion de Programas</option>
+            <option value="Lenguajes de Programacion">Lenguajes de Programacion</option>
+            <option value="Otro">Otro</option>
+        </select>
+    </div>
+    <!--Link de contacto-->
+    <div>
+        <h1>contacto</h1>
+        <a href="redes.html" target="_blank">Contactame en...</a>
+    </div>
+</body>
+
+</html>
