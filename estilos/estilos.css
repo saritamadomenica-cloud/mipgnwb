@@ -1,0 +1,35 @@
+h1{
+    color: cadetblue;
+}
+.menu{
+    list-style-type: none;
+    text-align: center;
+}
+.menu li{
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: cadetblue;
+}
+a{
+    text-decoration: none;
+    color: chocolate;
+}
+div.redes{
+    border: 3px dashed rgb(26, 197, 177);
+    text-align: center;
+}
+div.lol1{
+    width: 50%;
+    background-color:beige;
+}
+div.rl{
+    
+    text-emphasis: none;
+    border-radius: 3px;
+    color:blueviolet;
+    background-color: rgb(206, 178, 237);
+}
